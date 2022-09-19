@@ -1,8 +1,8 @@
-import { MainContainer } from './components/MainContainer'
-import { TechIcon } from './components/TechIcon'
-import { Header } from './components/Header'
+import { MainContainer } from './Components/MainContainer'
+import { TechIcon } from './Components/TechIcon'
+import { Header } from './Components/Header'
 
-import { TechList } from './services/TechList'
+import { TechList } from './Services/TechList'
 
 import './styles/main.css'
 
