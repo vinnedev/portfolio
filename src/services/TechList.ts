@@ -29,7 +29,7 @@ const TechList: ITechList[] = [
         id: 5,
         link: "/Assets/structure.png",
         _alt: "React",
-        
+
     },
     {
         id: 6,

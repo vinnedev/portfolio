@@ -1,9 +1,7 @@
-import { MainContainer } from './Components/MainContainer'
-import { TechIcon } from './Components/TechIcon'
-import { Header } from './Components/Header'
-
-import { TechList, ITechList } from './Services/TechList'
-
+import { Header } from './components/Header'
+import { MainContainer } from './components/MainContainer'
+import { TechIcon } from './components/TechIcon'
+import { TechList, ITechList } from './services/TechList'
 import './styles/main.css'
 
 function App() {
