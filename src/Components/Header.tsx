@@ -1,5 +1,5 @@
 import { Briefcase } from "phosphor-react";
-import { Button } from "./button";
+import { Button } from "./Button";
 
 
 export function Header() {
