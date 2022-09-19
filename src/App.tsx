@@ -38,7 +38,7 @@ function App() {
         '>
 
         {TechList.map((tech) => {
-          return <TechIcon key={tech.id} link={tech.link} _alt={tech._alt} />
+          return (<TechIcon key={tech.id} link={tech.link} _alt={tech._alt} />)
         })}
       </div>
     </div>
