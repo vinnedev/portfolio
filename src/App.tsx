@@ -2,11 +2,12 @@ import { MainContainer } from './Components/MainContainer'
 import { TechIcon } from './Components/TechIcon'
 import { Header } from './Components/Header'
 
-import { TechList } from './Services/TechList'
+import { TechList, ITechList } from './Services/TechList'
 
 import './styles/main.css'
 
 function App() {
+
   return (<>
     <div className='w-full bg-slate-300 h-auto'>
       <div className='max-w-5xl mx-auto px-8'>
@@ -37,7 +38,7 @@ function App() {
           md:justify-around
         '>
 
-        {TechList.map((tech) => {
+        {TechList.map((tech: ITechList) => {
           return (<TechIcon key={tech.id} link={tech.link} _alt={tech._alt} />)
         })}
       </div>
