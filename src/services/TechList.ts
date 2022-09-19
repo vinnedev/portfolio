@@ -1,4 +1,10 @@
-export const TechList = [
+interface ITechList {
+    id: number;
+    link: string;
+    _alt: string;
+}
+
+const TechList: ITechList[] = [
     {
         id: 1,
         link: "/Assets/html5.png",
@@ -47,3 +53,6 @@ export const TechList = [
     },
 
 ]
+
+export { TechList };
+export type { ITechList };
